@@ -1,0 +1,352 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A01093CD20A49E7200E77DEB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A01093CC20A49E7200E77DEB /* AppDelegate.m */; };
+		A01093CF20A49E7500E77DEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A01093CE20A49E7500E77DEB /* Assets.xcassets */; };
+		A01093D220A49E7500E77DEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A01093D020A49E7500E77DEB /* LaunchScreen.storyboard */; };
+		A01093D520A49E7500E77DEB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A01093D420A49E7500E77DEB /* main.m */; };
+		A01093DE20A49EC400E77DEB /* AGTImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A01093DC20A49EC400E77DEB /* AGTImageViewController.m */; };
+		A01093DF20A49EC400E77DEB /* AGTImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A01093DD20A49EC400E77DEB /* AGTImageViewController.xib */; };
+		A05FF08720A4D0F200A14968 /* AGTImageFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = A05FF08620A4D0F200A14968 /* AGTImageFilter.m */; };
+		A0C9283920A4B448007F549C /* AGTImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C9283820A4B448007F549C /* AGTImageDownloader.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A01093C820A49E7200E77DEB /* Concurrencia2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Concurrencia2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A01093CB20A49E7200E77DEB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A01093CC20A49E7200E77DEB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A01093CE20A49E7500E77DEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A01093D120A49E7500E77DEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A01093D320A49E7500E77DEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A01093D420A49E7500E77DEB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A01093DB20A49EC400E77DEB /* AGTImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AGTImageViewController.h; sourceTree = "<group>"; };
+		A01093DC20A49EC400E77DEB /* AGTImageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AGTImageViewController.m; sourceTree = "<group>"; };
+		A01093DD20A49EC400E77DEB /* AGTImageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AGTImageViewController.xib; sourceTree = "<group>"; };
+		A05FF08520A4D0F200A14968 /* AGTImageFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AGTImageFilter.h; sourceTree = "<group>"; };
+		A05FF08620A4D0F200A14968 /* AGTImageFilter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AGTImageFilter.m; sourceTree = "<group>"; };
+		A0C9283720A4B448007F549C /* AGTImageDownloader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AGTImageDownloader.h; sourceTree = "<group>"; };
+		A0C9283820A4B448007F549C /* AGTImageDownloader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AGTImageDownloader.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A01093C520A49E7200E77DEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A01093BF20A49E7200E77DEB = {
+			isa = PBXGroup;
+			children = (
+				A01093CA20A49E7200E77DEB /* Concurrencia2 */,
+				A01093C920A49E7200E77DEB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A01093C920A49E7200E77DEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A01093C820A49E7200E77DEB /* Concurrencia2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A01093CA20A49E7200E77DEB /* Concurrencia2 */ = {
+			isa = PBXGroup;
+			children = (
+				A0C9283620A4B419007F549C /* Operations */,
+				A01093CB20A49E7200E77DEB /* AppDelegate.h */,
+				A01093CC20A49E7200E77DEB /* AppDelegate.m */,
+				A01093DB20A49EC400E77DEB /* AGTImageViewController.h */,
+				A01093DC20A49EC400E77DEB /* AGTImageViewController.m */,
+				A01093DD20A49EC400E77DEB /* AGTImageViewController.xib */,
+				A01093CE20A49E7500E77DEB /* Assets.xcassets */,
+				A01093D020A49E7500E77DEB /* LaunchScreen.storyboard */,
+				A01093D320A49E7500E77DEB /* Info.plist */,
+				A01093D420A49E7500E77DEB /* main.m */,
+			);
+			path = Concurrencia2;
+			sourceTree = "<group>";
+		};
+		A0C9283620A4B419007F549C /* Operations */ = {
+			isa = PBXGroup;
+			children = (
+				A0C9283720A4B448007F549C /* AGTImageDownloader.h */,
+				A0C9283820A4B448007F549C /* AGTImageDownloader.m */,
+				A05FF08520A4D0F200A14968 /* AGTImageFilter.h */,
+				A05FF08620A4D0F200A14968 /* AGTImageFilter.m */,
+			);
+			path = Operations;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A01093C720A49E7200E77DEB /* Concurrencia2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A01093D820A49E7500E77DEB /* Build configuration list for PBXNativeTarget "Concurrencia2" */;
+			buildPhases = (
+				A01093C420A49E7200E77DEB /* Sources */,
+				A01093C520A49E7200E77DEB /* Frameworks */,
+				A01093C620A49E7200E77DEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Concurrencia2;
+			productName = Concurrencia2;
+			productReference = A01093C820A49E7200E77DEB /* Concurrencia2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A01093C020A49E7200E77DEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Eduardo Jordan Muñoz";
+				TargetAttributes = {
+					A01093C720A49E7200E77DEB = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = A01093C320A49E7200E77DEB /* Build configuration list for PBXProject "Concurrencia2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A01093BF20A49E7200E77DEB;
+			productRefGroup = A01093C920A49E7200E77DEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A01093C720A49E7200E77DEB /* Concurrencia2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A01093C620A49E7200E77DEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A01093CF20A49E7500E77DEB /* Assets.xcassets in Resources */,
+				A01093D220A49E7500E77DEB /* LaunchScreen.storyboard in Resources */,
+				A01093DF20A49EC400E77DEB /* AGTImageViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A01093C420A49E7200E77DEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A01093DE20A49EC400E77DEB /* AGTImageViewController.m in Sources */,
+				A05FF08720A4D0F200A14968 /* AGTImageFilter.m in Sources */,
+				A0C9283920A4B448007F549C /* AGTImageDownloader.m in Sources */,
+				A01093D520A49E7500E77DEB /* main.m in Sources */,
+				A01093CD20A49E7200E77DEB /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A01093D020A49E7500E77DEB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A01093D120A49E7500E77DEB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A01093D620A49E7500E77DEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A01093D720A49E7500E77DEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A01093D920A49E7500E77DEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QSL65SU6PD;
+				INFOPLIST_FILE = Concurrencia2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Jordan.Concurrencia2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A01093DA20A49E7500E77DEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QSL65SU6PD;
+				INFOPLIST_FILE = Concurrencia2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Jordan.Concurrencia2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A01093C320A49E7200E77DEB /* Build configuration list for PBXProject "Concurrencia2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A01093D620A49E7500E77DEB /* Debug */,
+				A01093D720A49E7500E77DEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A01093D820A49E7500E77DEB /* Build configuration list for PBXNativeTarget "Concurrencia2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A01093D920A49E7500E77DEB /* Debug */,
+				A01093DA20A49E7500E77DEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A01093C020A49E7200E77DEB /* Project object */;
+}

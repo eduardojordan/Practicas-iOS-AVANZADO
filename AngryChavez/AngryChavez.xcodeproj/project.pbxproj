@@ -1,0 +1,406 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A0F5A9BA20A6067A00BD240A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F5A9B920A6067A00BD240A /* AppDelegate.m */; };
+		A0F5A9BC20A6067C00BD240A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0F5A9BB20A6067C00BD240A /* Assets.xcassets */; };
+		A0F5A9BF20A6067C00BD240A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0F5A9BD20A6067C00BD240A /* LaunchScreen.storyboard */; };
+		A0F5A9C220A6067C00BD240A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F5A9C120A6067C00BD240A /* main.m */; };
+		A0F5A9CE20A606F100BD240A /* AGTChavezViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F5A9CC20A606F100BD240A /* AGTChavezViewController.m */; };
+		A0F5A9CF20A606F100BD240A /* AGTChavezViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0F5A9CD20A606F100BD240A /* AGTChavezViewController.xib */; };
+		A0F5A9D420A60FB900BD240A /* chavez mexico.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A0F5A9D020A60FB800BD240A /* chavez mexico.jpeg */; };
+		A0F5A9D520A60FB900BD240A /* chavezCagandola.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A0F5A9D120A60FB900BD240A /* chavezCagandola.jpg */; };
+		A0F5A9D620A60FB900BD240A /* Se jodio Chavez.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A0F5A9D220A60FB900BD240A /* Se jodio Chavez.jpg */; };
+		A0F5A9D720A60FB900BD240A /* chavezcagando.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A0F5A9D320A60FB900BD240A /* chavezcagando.jpg */; };
+		A0F5A9E420A6239A00BD240A /* BulletHole.png in Resources */ = {isa = PBXBuildFile; fileRef = A0F5A9E320A6239A00BD240A /* BulletHole.png */; };
+		A0F5A9E620A6243700BD240A /* crackedGlass.png in Resources */ = {isa = PBXBuildFile; fileRef = A0F5A9E520A6243700BD240A /* crackedGlass.png */; };
+		A0F5A9E820A6256100BD240A /* cinta.png in Resources */ = {isa = PBXBuildFile; fileRef = A0F5A9E720A6256100BD240A /* cinta.png */; };
+		A0F5A9ED20A6260500BD240A /* tape1.png in Resources */ = {isa = PBXBuildFile; fileRef = A0F5A9E920A6260500BD240A /* tape1.png */; };
+		A0F5A9EE20A6260500BD240A /* tape3.png in Resources */ = {isa = PBXBuildFile; fileRef = A0F5A9EA20A6260500BD240A /* tape3.png */; };
+		A0F5A9EF20A6260500BD240A /* tape4.png in Resources */ = {isa = PBXBuildFile; fileRef = A0F5A9EB20A6260500BD240A /* tape4.png */; };
+		A0F5A9F020A6260500BD240A /* tape2.png in Resources */ = {isa = PBXBuildFile; fileRef = A0F5A9EC20A6260500BD240A /* tape2.png */; };
+		A0F5A9F520A6350700BD240A /* CHAVEZ_PATRIA_QUERIDA.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A0F5A9F120A6350600BD240A /* CHAVEZ_PATRIA_QUERIDA.mp3 */; };
+		A0F5A9F620A6350700BD240A /* machineGunLoop.wav in Resources */ = {isa = PBXBuildFile; fileRef = A0F5A9F220A6350700BD240A /* machineGunLoop.wav */; };
+		A0F5A9F720A6350700BD240A /* punch.wav in Resources */ = {isa = PBXBuildFile; fileRef = A0F5A9F320A6350700BD240A /* punch.wav */; };
+		A0F5A9F820A6350700BD240A /* tape.caf in Resources */ = {isa = PBXBuildFile; fileRef = A0F5A9F420A6350700BD240A /* tape.caf */; };
+		A0F5A9FB20A6355000BD240A /* AGTSystemSounds.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F5A9FA20A6355000BD240A /* AGTSystemSounds.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A0F5A9B520A6067A00BD240A /* AngryChavez.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AngryChavez.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0F5A9B820A6067A00BD240A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A0F5A9B920A6067A00BD240A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A0F5A9BB20A6067C00BD240A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A0F5A9BE20A6067C00BD240A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A0F5A9C020A6067C00BD240A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0F5A9C120A6067C00BD240A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A0F5A9CB20A606F100BD240A /* AGTChavezViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AGTChavezViewController.h; sourceTree = "<group>"; };
+		A0F5A9CC20A606F100BD240A /* AGTChavezViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AGTChavezViewController.m; sourceTree = "<group>"; };
+		A0F5A9CD20A606F100BD240A /* AGTChavezViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AGTChavezViewController.xib; sourceTree = "<group>"; };
+		A0F5A9D020A60FB800BD240A /* chavez mexico.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "chavez mexico.jpeg"; sourceTree = "<group>"; };
+		A0F5A9D120A60FB900BD240A /* chavezCagandola.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chavezCagandola.jpg; sourceTree = "<group>"; };
+		A0F5A9D220A60FB900BD240A /* Se jodio Chavez.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Se jodio Chavez.jpg"; sourceTree = "<group>"; };
+		A0F5A9D320A60FB900BD240A /* chavezcagando.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chavezcagando.jpg; sourceTree = "<group>"; };
+		A0F5A9E320A6239A00BD240A /* BulletHole.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BulletHole.png; sourceTree = "<group>"; };
+		A0F5A9E520A6243700BD240A /* crackedGlass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crackedGlass.png; sourceTree = "<group>"; };
+		A0F5A9E720A6256100BD240A /* cinta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cinta.png; sourceTree = "<group>"; };
+		A0F5A9E920A6260500BD240A /* tape1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tape1.png; sourceTree = "<group>"; };
+		A0F5A9EA20A6260500BD240A /* tape3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tape3.png; sourceTree = "<group>"; };
+		A0F5A9EB20A6260500BD240A /* tape4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tape4.png; sourceTree = "<group>"; };
+		A0F5A9EC20A6260500BD240A /* tape2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tape2.png; sourceTree = "<group>"; };
+		A0F5A9F120A6350600BD240A /* CHAVEZ_PATRIA_QUERIDA.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = CHAVEZ_PATRIA_QUERIDA.mp3; sourceTree = "<group>"; };
+		A0F5A9F220A6350700BD240A /* machineGunLoop.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = machineGunLoop.wav; sourceTree = "<group>"; };
+		A0F5A9F320A6350700BD240A /* punch.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = punch.wav; sourceTree = "<group>"; };
+		A0F5A9F420A6350700BD240A /* tape.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = tape.caf; sourceTree = "<group>"; };
+		A0F5A9F920A6355000BD240A /* AGTSystemSounds.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AGTSystemSounds.h; sourceTree = "<group>"; };
+		A0F5A9FA20A6355000BD240A /* AGTSystemSounds.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AGTSystemSounds.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0F5A9B220A6067A00BD240A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A0F5A9AC20A6067A00BD240A = {
+			isa = PBXGroup;
+			children = (
+				A0F5A9F920A6355000BD240A /* AGTSystemSounds.h */,
+				A0F5A9FA20A6355000BD240A /* AGTSystemSounds.m */,
+				A0F5A9D820A60FC000BD240A /* Resorurces */,
+				A0F5A9CB20A606F100BD240A /* AGTChavezViewController.h */,
+				A0F5A9CC20A606F100BD240A /* AGTChavezViewController.m */,
+				A0F5A9CD20A606F100BD240A /* AGTChavezViewController.xib */,
+				A0F5A9B720A6067A00BD240A /* AngryChavez */,
+				A0F5A9B620A6067A00BD240A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A0F5A9B620A6067A00BD240A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0F5A9B520A6067A00BD240A /* AngryChavez.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0F5A9B720A6067A00BD240A /* AngryChavez */ = {
+			isa = PBXGroup;
+			children = (
+				A0F5A9B820A6067A00BD240A /* AppDelegate.h */,
+				A0F5A9B920A6067A00BD240A /* AppDelegate.m */,
+				A0F5A9BB20A6067C00BD240A /* Assets.xcassets */,
+				A0F5A9BD20A6067C00BD240A /* LaunchScreen.storyboard */,
+				A0F5A9C020A6067C00BD240A /* Info.plist */,
+				A0F5A9C120A6067C00BD240A /* main.m */,
+			);
+			path = AngryChavez;
+			sourceTree = "<group>";
+		};
+		A0F5A9D820A60FC000BD240A /* Resorurces */ = {
+			isa = PBXGroup;
+			children = (
+				A0F5A9F120A6350600BD240A /* CHAVEZ_PATRIA_QUERIDA.mp3 */,
+				A0F5A9F220A6350700BD240A /* machineGunLoop.wav */,
+				A0F5A9F320A6350700BD240A /* punch.wav */,
+				A0F5A9F420A6350700BD240A /* tape.caf */,
+				A0F5A9E920A6260500BD240A /* tape1.png */,
+				A0F5A9EC20A6260500BD240A /* tape2.png */,
+				A0F5A9EA20A6260500BD240A /* tape3.png */,
+				A0F5A9EB20A6260500BD240A /* tape4.png */,
+				A0F5A9E720A6256100BD240A /* cinta.png */,
+				A0F5A9E520A6243700BD240A /* crackedGlass.png */,
+				A0F5A9E320A6239A00BD240A /* BulletHole.png */,
+				A0F5A9D020A60FB800BD240A /* chavez mexico.jpeg */,
+				A0F5A9D320A60FB900BD240A /* chavezcagando.jpg */,
+				A0F5A9D120A60FB900BD240A /* chavezCagandola.jpg */,
+				A0F5A9D220A60FB900BD240A /* Se jodio Chavez.jpg */,
+			);
+			path = Resorurces;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A0F5A9B420A6067A00BD240A /* AngryChavez */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0F5A9C520A6067C00BD240A /* Build configuration list for PBXNativeTarget "AngryChavez" */;
+			buildPhases = (
+				A0F5A9B120A6067A00BD240A /* Sources */,
+				A0F5A9B220A6067A00BD240A /* Frameworks */,
+				A0F5A9B320A6067A00BD240A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AngryChavez;
+			productName = AngryChavez;
+			productReference = A0F5A9B520A6067A00BD240A /* AngryChavez.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0F5A9AD20A6067A00BD240A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Eduardo Jordan Muñoz";
+				TargetAttributes = {
+					A0F5A9B420A6067A00BD240A = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = A0F5A9B020A6067A00BD240A /* Build configuration list for PBXProject "AngryChavez" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A0F5A9AC20A6067A00BD240A;
+			productRefGroup = A0F5A9B620A6067A00BD240A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0F5A9B420A6067A00BD240A /* AngryChavez */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A0F5A9B320A6067A00BD240A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0F5A9F820A6350700BD240A /* tape.caf in Resources */,
+				A0F5A9ED20A6260500BD240A /* tape1.png in Resources */,
+				A0F5A9D420A60FB900BD240A /* chavez mexico.jpeg in Resources */,
+				A0F5A9E820A6256100BD240A /* cinta.png in Resources */,
+				A0F5A9BC20A6067C00BD240A /* Assets.xcassets in Resources */,
+				A0F5A9D720A60FB900BD240A /* chavezcagando.jpg in Resources */,
+				A0F5A9EE20A6260500BD240A /* tape3.png in Resources */,
+				A0F5A9D620A60FB900BD240A /* Se jodio Chavez.jpg in Resources */,
+				A0F5A9F620A6350700BD240A /* machineGunLoop.wav in Resources */,
+				A0F5A9BF20A6067C00BD240A /* LaunchScreen.storyboard in Resources */,
+				A0F5A9E420A6239A00BD240A /* BulletHole.png in Resources */,
+				A0F5A9EF20A6260500BD240A /* tape4.png in Resources */,
+				A0F5A9D520A60FB900BD240A /* chavezCagandola.jpg in Resources */,
+				A0F5A9E620A6243700BD240A /* crackedGlass.png in Resources */,
+				A0F5A9F520A6350700BD240A /* CHAVEZ_PATRIA_QUERIDA.mp3 in Resources */,
+				A0F5A9F020A6260500BD240A /* tape2.png in Resources */,
+				A0F5A9CF20A606F100BD240A /* AGTChavezViewController.xib in Resources */,
+				A0F5A9F720A6350700BD240A /* punch.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0F5A9B120A6067A00BD240A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0F5A9C220A6067C00BD240A /* main.m in Sources */,
+				A0F5A9FB20A6355000BD240A /* AGTSystemSounds.m in Sources */,
+				A0F5A9CE20A606F100BD240A /* AGTChavezViewController.m in Sources */,
+				A0F5A9BA20A6067A00BD240A /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A0F5A9BD20A6067C00BD240A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0F5A9BE20A6067C00BD240A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A0F5A9C320A6067C00BD240A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A0F5A9C420A6067C00BD240A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A0F5A9C620A6067C00BD240A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QSL65SU6PD;
+				INFOPLIST_FILE = AngryChavez/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Jordan.AngryChavez;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A0F5A9C720A6067C00BD240A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QSL65SU6PD;
+				INFOPLIST_FILE = AngryChavez/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Jordan.AngryChavez;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0F5A9B020A6067A00BD240A /* Build configuration list for PBXProject "AngryChavez" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0F5A9C320A6067C00BD240A /* Debug */,
+				A0F5A9C420A6067C00BD240A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0F5A9C520A6067C00BD240A /* Build configuration list for PBXNativeTarget "AngryChavez" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0F5A9C620A6067C00BD240A /* Debug */,
+				A0F5A9C720A6067C00BD240A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A0F5A9AD20A6067A00BD240A /* Project object */;
+}
